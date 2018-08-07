@@ -1,0 +1,2 @@
+# 上榜次数最多的作者
+select count(1) count, authorName from rankbook group by authorName order by count desc limit 50
