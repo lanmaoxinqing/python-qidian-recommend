@@ -23,5 +23,3 @@ result = WordCloud(font_path="/System/Library/Fonts/PingFang.ttc",
                    random_state=10
                    ).generate(words)
 result.to_file('1.png')
-
-

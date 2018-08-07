@@ -7,8 +7,7 @@ from model import *
 import os
 
 
-def parse():
-    path = "https://www.qidian.com/book/strongrec?page="
+def parse(path, rank_type):
     page = 10
     # 页
     for i in range(1, page + 1):
@@ -25,7 +24,7 @@ def parse():
         # 榜单
         for rank_data in rank_arr:
             rank = Rank()
-            rank.type = 1
+            rank.type = rank_type
             rank.fromDate = rank_data(".date-from").text()
             rank.toDate = rank_data(".date-to").text()
             rank.save()
@@ -42,11 +41,13 @@ def parse():
                 channel.save()
 
                 author_data = book_data(".author")
-                author = Author()
-                author.name = author_data.text()
-                author.url = author_data.attr("href")
-                author.id = author.url.split("=")[1]
-                author.save()
+                author = None
+                if author_data.size() > 0:
+                    author = Author()
+                    author.name = author_data.text()
+                    author.url = author_data.attr("href")
+                    author.id = author.url.split("=")[1]
+                    author.save()
 
                 book_data = book_data(".name")
                 book = Book()
@@ -54,7 +55,8 @@ def parse():
                 book.url = book_data.attr("href")
                 book.id = os.path.basename(book.url)
                 book.channel = channel
-                book.author = author
+                if author:
+                    book.author = author
                 # print(book.channel, book.name, book.author)
                 book.save()
 
@@ -62,13 +64,16 @@ def parse():
                 rank_book.rank = rank
                 rank_book.book = book
                 rank_book.bookName = book.name
-                rank_book.bookURL = book.url
-                rank_book.authorName = author.name
+                if author:
+                    rank_book.authorName = author.name
                 rank_book.channelName = channel.name
                 rank_book.save()
 
 
 db.connect()
 db.create_tables([RankBook, Book, Rank, Author, Channel])
-parse()
+# 强推
+parse("https://www.qidian.com/book/strongrec?page=", 1)
+# 三江
+parse("https://www.qidian.com/book/sanjiang?page=", 2)
 db.close()
