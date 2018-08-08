@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48176aa2-a30a-4b96-9055-11c31328ef6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jinjiang/sql.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jinjiang/start.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jinjiang/vip_rank_parser.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/qidian.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/qidian_model.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/strong_parser.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python-qidian-recommend.iml" afterPath="$PROJECT_DIR$/.idea/python-qidian-recommend.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keywords.py" afterPath="$PROJECT_DIR$/keywords.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jinjiang/jinjiang.db" afterPath="$PROJECT_DIR$/jinjiang/jinjiang.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jinjiang/free_rank_parser.py" afterPath="$PROJECT_DIR$/jinjiang/free_rank_parser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jinjiang/model.py" afterPath="$PROJECT_DIR$/jinjiang/model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jinjiang/start.py" afterPath="$PROJECT_DIR$/jinjiang/start.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jinjiang/vip_rank_parser.py" afterPath="$PROJECT_DIR$/jinjiang/vip_rank_parser.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,23 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vip_rank_parser.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jinjiang/vip_rank_parser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="81" column="22" lean-forward="true" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
-              <folding>
-                <element signature="e#45#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sql.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jinjiang/sql.txt">
+      <file leaf-file-name="free_rank_parser.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jinjiang/free_rank_parser.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -49,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/jinjiang/start.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -58,9 +40,23 @@
       <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jinjiang/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="75">
+              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding>
+                <element signature="e#45#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vip_rank_parser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jinjiang/vip_rank_parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="e#45#78#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,11 +93,11 @@
         <option value="$PROJECT_DIR$/jinjiang/__init__.py" />
         <option value="$PROJECT_DIR$/jinjiang/parser.py" />
         <option value="$PROJECT_DIR$/start.py" />
-        <option value="$PROJECT_DIR$/jinjiang/free_rank_parser.py" />
-        <option value="$PROJECT_DIR$/jinjiang/model.py" />
-        <option value="$PROJECT_DIR$/jinjiang/start.py" />
-        <option value="$PROJECT_DIR$/jinjiang/vip_rank_parser.py" />
         <option value="$PROJECT_DIR$/jinjiang/sql.txt" />
+        <option value="$PROJECT_DIR$/jinjiang/start.py" />
+        <option value="$PROJECT_DIR$/jinjiang/model.py" />
+        <option value="$PROJECT_DIR$/jinjiang/vip_rank_parser.py" />
+        <option value="$PROJECT_DIR$/jinjiang/free_rank_parser.py" />
       </list>
     </option>
   </component>
@@ -436,46 +432,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jinjiang/free_rank_parser.py">
+    <entry file="file://$PROJECT_DIR$/jinjiang/sql.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-          <folding>
-            <element signature="e#45#70#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="88">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jinjiang/start.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jinjiang/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#45#65#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jinjiang/vip_rank_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="81" column="22" lean-forward="true" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+        <state relative-caret-position="110">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#45#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jinjiang/sql.txt">
+    <entry file="file://$PROJECT_DIR$/jinjiang/free_rank_parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           <folding />
         </state>
       </provider>

@@ -2,8 +2,12 @@
 # -*- coding: utf-8 -*-
 
 from peewee import *
+import asyncio
 
 db = SqliteDatabase('jinjiang.db')
+host = 'http://www.jjwxc.net'
+sem = asyncio.Semaphore(5)
+
 
 class Base(Model):
 

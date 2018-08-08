@@ -13,7 +13,8 @@ except:
 
 
 db.connect()
-vip_rank_parser.update()
+free_rank_parser.parse()
+# vip_rank_parser.parse()
 db.close()
 
 

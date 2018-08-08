@@ -3,16 +3,12 @@
 
 from pyquery import PyQuery as pq
 import aiohttp
-import asyncio
 
 try:
     from .model import *
 except:
     from model import *
 
-
-host = 'http://www.jjwxc.net'
-sem = asyncio.Semaphore(5)
 
 def parse():
     db.create_tables([VipRank])
