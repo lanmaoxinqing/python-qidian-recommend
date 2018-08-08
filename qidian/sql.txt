@@ -1,0 +1,5 @@
+# 上榜次数最多的作者
+select count(1) count, authorName from rankbook group by authorName order by count desc limit 50
+
+# 上榜种类最多的小说
+select count(1) count, channelName from rankbook group by channelName order by count desc limit 10

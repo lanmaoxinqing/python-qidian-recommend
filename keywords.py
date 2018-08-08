@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # !/usr/bin/python3
 
-from model import *
+from qidian_model import *
 from wordcloud import WordCloud
 import jieba
 

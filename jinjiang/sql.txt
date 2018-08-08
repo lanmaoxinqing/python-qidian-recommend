@@ -1,0 +1,5 @@
+# 收藏前30的游戏类小说
+select book_name, book_url, category, state, word_count from viprank
+where category like '%游戏%' and word_count >0
+order by collect_count desc
+limit 30
