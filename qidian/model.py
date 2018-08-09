@@ -43,3 +43,21 @@ class RankBook(Base):
     channelName = TextField(null=True)
     bookName = TextField(null=True)
     authorName = TextField(null=True)
+
+
+class FinishBook(Base):
+    book_id = TextField(primary_key=True)
+    book_name = TextField()
+    book_url = TextField()
+    cover_url = TextField(null=True)
+    author_id = TextField(null=True)
+    author_name = TextField(null=True)
+    category = TextField(null=True)
+    sub_category = TextField(null=True)
+    state = TextField(null=True)
+    desc = TextField(null=True)
+    state = TextField(null=True)
+    word_count = BigIntegerField(default=0)
+
+    def __str__(self):
+        print(self.book_name)
